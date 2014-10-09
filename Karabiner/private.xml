@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>IJKL Mode</name>
+    <item>
+      <name>What's Simultaneous IJKL Mode?</name>
+      <appendix>Map CapsLock to PC_APPLICATION in Seil then hold down caps lock to:</appendix>
+      <appendix>- IJKL to Up/Left/Down/Right</appendix>
+      <identifier vk_config="true">notsave.simultaneouskeypresses_ijklmode</identifier>
+
+      {{ SIMULTANEOUS_VI_MODE_EXTRA }}
+
+      <autogen>__ShowStatusMessage__ IJKL Mode</autogen>
+      <autogen>__KeyToKey__ KeyCode::J, KeyCode::CURSOR_LEFT</autogen>
+      <autogen>__KeyToKey__ KeyCode::K, KeyCode::CURSOR_DOWN</autogen>
+      <autogen>__KeyToKey__ KeyCode::I, KeyCode::CURSOR_UP</autogen>
+      <autogen>__KeyToKey__ KeyCode::L, KeyCode::CURSOR_RIGHT</autogen>
+      <block>
+        <config_only>option.simultaneouskeypresses_ijklmode_f_to_fn</config_only>
+        <autogen>__KeyToKey__ KeyCode::F, KeyCode::FN</autogen>
+      </block>
+      <block>
+        <config_only>option.simultaneouskeypresses_ijklmode_commadot_to_optionleftright</config_only>
+        <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::CURSOR_LEFT,  ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::DOT,   KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+      </block>
+    </item>
+    <item>
+      <name>CapsLock to Enable IJKL Mode</name>
+      <identifier>remap.simultaneouskeypresses_ijklmode_sd</identifier>
+      <autogen>__KeyOverlaidModifier__ KeyCode::PC_APPLICATION, 
+        KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_simultaneouskeypresses_ijklmode,
+        KeyCode::PC_APPLICATION
+	  </autogen>
+    </item>
+    <item>
+      <name>── Options ────────────────────────────</name>
+    </item>
+    <item>
+      <name>Change F to FN</name>
+      <appendix>(= F+JKIL to Home/PageDown/PageUp/End)</appendix>
+      <identifier>option.simultaneouskeypresses_ijklmode_f_to_fn</identifier>
+    </item>
+    <item>
+      <name>Change ,. to backward-word/forward-word</name>
+      <identifier>option.simultaneouskeypresses_ijklmode_commadot_to_optionleftright</identifier>
+    </item>
+  </item>
+</root>
