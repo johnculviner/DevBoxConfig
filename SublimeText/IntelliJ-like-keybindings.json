@@ -5,5 +5,11 @@
     { "keys": ["super+d"], "command": "duplicate_line" },
     { "keys": ["super+1"], "command": "focus_side_bar" },
     { "keys": ["super+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-    { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+    { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["super+b"], "command": "goto_definition" },
+	{ "keys": ["super+["], "command": "jump_back" },
+    { "keys": ["super+]"], "command": "jump_forward" },
+    { "keys": ["tab"], "command": "indent" },
+    { "keys": ["shift+tab"], "command": "unindent" },
+    { "keys": ["super+alt+l"], "command": "reindent" , "args": { "single_line": false } }
 ]
