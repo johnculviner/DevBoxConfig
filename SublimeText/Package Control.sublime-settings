@@ -1,10 +1,17 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AngularJS",
-		"Delete Lines",
 		"ExpandRegion",
 		"Git",
+		"Gradle_Language",
+		"JsonTree",
+		"Jump Along Indent",
+		"Package Control",
+		"Pretty JSON",
 		"SideBarEnhancements",
 		"SideBarGit"
 	]
