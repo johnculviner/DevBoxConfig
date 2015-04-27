@@ -11,6 +11,7 @@
 - gfxCardStatus
 - Dash
 - Harvest
+- SourceTree
 
 #OSX Apps w/ licenses
 - IntelliJ
