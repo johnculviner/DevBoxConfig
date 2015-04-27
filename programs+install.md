@@ -28,7 +28,12 @@
 - rabbitmq
 - ansible
 
-#Also remeber...
+#Other stuff
+```
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+```
+
+#Also remember...
 - copy SSH keys
 - .gitconfig
 - any wifi user/pwd
