@@ -8,10 +8,13 @@
 - Trailer
 - AppCleaner
 - SublimeText
+- iTerm
+- Brew
 - gfxCardStatus
 - Dash
 - Harvest
 - SourceTree
+- OhMyZsh
 
 #OSX Apps w/ licenses
 - IntelliJ
@@ -28,10 +31,6 @@
 - rabbitmq
 - ansible
 
-#Other stuff
-```
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-```
 
 #Also remember...
 - copy SSH keys
