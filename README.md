@@ -15,6 +15,7 @@
 - Harvest
 - SourceTree
 - OhMyZsh
+- Docker
 
 #OSX Apps w/ licenses
 - IntelliJ
