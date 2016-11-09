@@ -12,9 +12,6 @@
 - Brew
 - gfxCardStatus
 - Dash
-    - https://github.com/manifestinteractive/alfred-workflows/tree/master/Chrome%20History
-    - http://www.packal.org/workflow/search-safari-and-chrome-tabs
-    - https://sayzlim.net/os-x-toolbox-workflow-alfred-2/
 - Harvest
 - SourceTree
 - OhMyZsh
@@ -23,6 +20,9 @@
 #OSX Apps w/ licenses
 - IntelliJ
 - Alfred
+    - https://github.com/manifestinteractive/alfred-workflows/tree/master/Chrome%20History
+    - http://www.packal.org/workflow/search-safari-and-chrome-tabs
+    - https://sayzlim.net/os-x-toolbox-workflow-alfred-2/
 
 #Brew mandatory
 - node
