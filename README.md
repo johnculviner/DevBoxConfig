@@ -28,6 +28,7 @@
 - node
 - ack
 - brew-cask
+- tig
 
 #Brew install optional
 - mongodb
