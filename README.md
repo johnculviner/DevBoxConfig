@@ -16,6 +16,7 @@
 - SourceTree
 - OhMyZsh
 - Docker
+- licecap - animated gif screen captures
 
 #OSX Apps w/ licenses
 - IntelliJ
