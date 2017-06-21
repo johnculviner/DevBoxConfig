@@ -1,4 +1,4 @@
-#OSX Apps
+# OSX Apps
 - Spectacle
 - Karabiner (Import private.xml)
 - Seil (Capslock to keycode 110)
@@ -18,20 +18,20 @@
 - Docker
 - licecap - animated gif screen captures
 
-#OSX Apps w/ licenses
+# OSX Apps w/ licenses
 - IntelliJ
 - Alfred
     - https://github.com/manifestinteractive/alfred-workflows/tree/master/Chrome%20History
     - http://www.packal.org/workflow/search-safari-and-chrome-tabs
     - https://sayzlim.net/os-x-toolbox-workflow-alfred-2/
 
-#Brew mandatory
+# Brew mandatory
 - node
 - ack
 - brew-cask
 - tig
 
-#Brew install optional
+# Brew install optional
 - mongodb
     - & https://github.com/remysaissy/mongodb-macosx-prefspane
 - rabbitmq
