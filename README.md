@@ -3,7 +3,7 @@
 - Karabiner (Import private.xml)
 - Seil (Capslock to keycode 110)
 - Keka
-- Robomongo
+- NoSQL Booster (formerly mongobooster)
 - Thyme
 - Trailer
 - AppCleaner
@@ -30,6 +30,12 @@
 - ack
 - brew-cask
 - tig
+
+# Run
+```
+defaults write -g InitialKeyRepeat -int 15 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
+```
 
 # Brew install optional
 - mongodb
