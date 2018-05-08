@@ -1,7 +1,6 @@
 # OSX Apps
 - Spectacle
-- Karabiner (Import private.xml)
-- Seil (Capslock to keycode 110)
+- Karabiner Elements
 - Keka
 - NoSQL Booster (formerly mongobooster)
 - Thyme
