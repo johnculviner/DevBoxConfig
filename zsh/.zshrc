@@ -1,6 +1,7 @@
 plugins=(git z sublime osx gradle git-extras gitfast dirhistory brew)
 
 alias oj='open -b com.jetbrains.intellij .'
+alias oc='open $@ -a "Visual Studio Code"'
 
 PROMPT_SUCCESS_COLOR=$FG[117]
 PROMPT_FAILURE_COLOR=$FG[124]
