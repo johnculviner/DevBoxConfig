@@ -6,10 +6,9 @@
 - Thyme
 - Trailer
 - AppCleaner
-- SublimeText
+- vscode
 - iTerm
 - Brew
-- gfxCardStatus
 - Dash
 - Harvest
 - SourceTree
